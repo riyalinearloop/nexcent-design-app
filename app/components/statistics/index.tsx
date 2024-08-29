@@ -1,8 +1,8 @@
 import React from "react";
-import { PaymentIcon } from "../theme/icon/paymentIcon";
-import { EventIcon } from "../theme/icon/eventIcon";
+import { PaymentIcon } from "../../../public/icon/paymentIcon";
+import { EventIcon } from "../../../public/icon/eventIcon";
 import Image from "next/image";
-import { MemberIcon } from "../theme/icon/memberIcon";
+import { MemberIcon } from "../../../public/icon/memberIcon";
 
 const StatisticsComponent = () => {
   return (

@@ -1,14 +1,14 @@
 import React from "react";
-import { Icon1 } from "../theme/icon/icon1";
-import { Icon2 } from "../theme/icon/icon2";
-import { Icon3 } from "../theme/icon/icon3";
-import { Icon4 } from "../theme/icon/icon4";
-import { Icon5 } from "../theme/icon/icon5";
-import { Icon6 } from "../theme/icon/icon6";
-import { PeopleIcon } from "../theme/icon/peopleIcon";
-import { BuildingIcon } from "../theme/icon/buildingIcon";
-import { HandIcon } from "../theme/icon/handIcon";
+import { PeopleIcon } from "../../../public/icon/peopleIcon";
+import { BuildingIcon } from "../../../public/icon/buildingIcon";
+import { HandIcon } from "../../../public/icon/handIcon";
 import Image from "next/image";
+import Icon1 from "../../../public/icon/icon1";
+import Icon4 from "../../../public/icon/icon4";
+import Icon6 from "../../../public/icon/icon6";
+import Icon2 from "../../../public/icon/icon2";
+import Icon3 from "../../../public/icon/icon3";
+import Icon5 from "../../../public/icon/icon5";
 
 const ClientComponent = () => {
   return (
@@ -73,7 +73,13 @@ const ClientComponent = () => {
       </div>
 
       <div className="flex items-center justify-center pb-12">
-        <Image src={"/images/rafiki.png"} alt="" width={441} height={329} className="py-[52px]" />
+        <Image
+          src={"/images/rafiki.png"}
+          alt=""
+          width={441}
+          height={329}
+          className="py-[52px]"
+        />
         <div className="w-[661px] px-12">
           <p className="text-4xl text- font-semibold">
             The unseen of spending three years at Pixelgrade
